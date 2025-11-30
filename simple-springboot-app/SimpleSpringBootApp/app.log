@@ -1,0 +1,49 @@
+nohup: ignoring input
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building SimpleSpringBootApp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.0:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demo ---
+[INFO] skip non existing resourceDirectory /home/ec2-user/Terraform-Automation-On-AWS/simple-springboot-app/SimpleSpringBootApp/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.0:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.0:run (default-cli) @ demo ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.0)
+
+2025-11-30T20:26:43.620Z  INFO 81175 --- [SimpleSpringBootApp] [           main] c.e.demo.SimpleSpringBootAppApplication  : Starting SimpleSpringBootAppApplication using Java 17.0.17 with PID 81175 (/home/ec2-user/Terraform-Automation-On-AWS/simple-springboot-app/SimpleSpringBootApp/target/classes started by ec2-user in /home/ec2-user/Terraform-Automation-On-AWS/simple-springboot-app/SimpleSpringBootApp)
+2025-11-30T20:26:43.624Z  INFO 81175 --- [SimpleSpringBootApp] [           main] c.e.demo.SimpleSpringBootAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-30T20:26:44.442Z  INFO 81175 --- [SimpleSpringBootApp] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-30T20:26:44.460Z  INFO 81175 --- [SimpleSpringBootApp] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-30T20:26:44.461Z  INFO 81175 --- [SimpleSpringBootApp] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-30T20:26:44.500Z  INFO 81175 --- [SimpleSpringBootApp] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 799 ms
+2025-11-30T20:26:44.819Z  INFO 81175 --- [SimpleSpringBootApp] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-30T20:26:44.824Z  INFO 81175 --- [SimpleSpringBootApp] [           main] c.e.demo.SimpleSpringBootAppApplication  : Started SimpleSpringBootAppApplication in 1.67 seconds (process running for 2.164)
+2025-11-30T20:27:01.960Z  INFO 81175 --- [SimpleSpringBootApp] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30T20:27:01.960Z  INFO 81175 --- [SimpleSpringBootApp] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-30T20:27:01.962Z  INFO 81175 --- [SimpleSpringBootApp] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
