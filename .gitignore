@@ -1,0 +1,4 @@
+.simple-springboot-app/SimpleSpringBootApp/.terraform/
+*.tfstate
+*.tfstate.backup
+*.log
