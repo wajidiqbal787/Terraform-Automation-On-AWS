@@ -1,4 +1,7 @@
-.simple-springboot-app/SimpleSpringBootApp/.terraform/
+# Terraform
 *.tfstate
 *.tfstate.backup
-*.log
+*.terraform/
+.terraform.lock.hcl
+
+.terraform/
