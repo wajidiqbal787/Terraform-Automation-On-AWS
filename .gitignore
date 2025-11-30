@@ -1,8 +1,5 @@
-# Terraform
+# Ignore Terraform binaries
+**/.terraform/
 *.tfstate
 *.tfstate.backup
-*.terraform/
-.terraform.lock.hcl
-
-.terraform/
-.terraform/
+*.log
