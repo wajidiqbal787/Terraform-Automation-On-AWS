@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3CgAypb6zhIjPDAWTzX4/OM5fHAvmbptHISSsGVqRYQ=",
+  "Source": "SimpleDotnetApp",
+  "BasePath": "_content/SimpleDotnetApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
